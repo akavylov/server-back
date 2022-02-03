@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "nanoid": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*.json"
+    ]
+  },
+  "scripts": {
+    "start": "node script.js"
+  }
+}
